@@ -13,5 +13,5 @@
 
 Route::view('/', 'welcome');
 
-Route::get('login', 'ChatWorkController@login');
-Route::get('callback', 'ChatWorkController@callback');
+Route::get('{provider}/login', 'SocialiteController@login');
+Route::get('{provider}/callback', 'SocialiteController@callback');

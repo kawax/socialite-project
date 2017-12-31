@@ -40,4 +40,10 @@ return [
         'client_secret' => env('CHATWORK_CLIENT_SECRET'),
         'redirect'      => env('CHATWORK_REDIRECT'),
     ],
+
+    'amazon' => [
+        'client_id'     => env('AMAZON_LOGIN_ID'),
+        'client_secret' => env('AMAZON_LOGIN_SECRET'),
+        'redirect'      => env('AMAZON_LOGIN_REDIRECT'),
+    ],
 ];
