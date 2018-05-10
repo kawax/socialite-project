@@ -46,4 +46,10 @@ return [
         'client_secret' => env('AMAZON_LOGIN_SECRET'),
         'redirect'      => env('AMAZON_LOGIN_REDIRECT'),
     ],
+
+    'qiita' => [
+        'client_id'     => env('QIITA_CLIENT_ID'),
+        'client_secret' => env('QIITA_CLIENT_SECRET'),
+        'redirect'      => env('QIITA_REDIRECT'),
+    ],
 ];
