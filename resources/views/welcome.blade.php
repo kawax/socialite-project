@@ -83,6 +83,7 @@
         <a href="/chatwork/login">ChatWork</a>
         <a href="/amazon/login">Amazon</a>
         <a href="/qiita/login">Qiita</a>
+        <a href="/discord/login">Discord</a>
 
     </div>
 </div>
