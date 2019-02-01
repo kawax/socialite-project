@@ -58,4 +58,18 @@ return [
         'client_secret' => env('DISCORD_CLIENT_SECRET'),
         'redirect'      => env('DISCORD_REDIRECT'),
     ],
+
+    'wordpress' => [
+        // Endpoint for WordPress.com
+        'host'   => env('WORDPRESS_HOST', 'https://public-api.wordpress.com/oauth2'),
+        'api_me' => env('WORDPRESS_API_ME', 'https://public-api.wordpress.com/rest/v1.1/me'),
+
+        // Endpoint for Self-hosted WordPress
+        //        'host'   => env('WORDPRESS_HOST'),
+        //        'api_me' => env('WORDPRESS_API_ME', env('WORDPRESS_HOST') . '/me/'),
+
+        'client_id'     => env('WORDPRESS_CLIENT_ID'),
+        'client_secret' => env('WORDPRESS_CLIENT_SECRET'),
+        'redirect'      => env('WORDPRESS_REDIRECT'),
+    ],
 ];
