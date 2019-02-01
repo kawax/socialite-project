@@ -8,15 +8,15 @@
     <title>Laravel</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <style>
         html, body {
             background-color: #fff;
             color: #636b6f;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 100;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
             height: 100vh;
             margin: 0;
         }
@@ -49,14 +49,18 @@
             font-size: 84px;
         }
 
-        .links > a {
+        .links a {
             color: #636b6f;
             padding: 0 25px;
-            font-size: 12px;
+            font-size: 16px;
             font-weight: 600;
             letter-spacing: .1rem;
             text-decoration: none;
-            text-transform: uppercase;
+            /*text-transform: uppercase;*/
+        }
+
+        .links li {
+            list-style-type: none;
         }
 
         .m-b-md {
@@ -66,24 +70,16 @@
 </head>
 <body>
 <div class="flex-center position-ref full-height">
-    @if (Route::has('login'))
-        <div class="top-right links">
-            @auth
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ route('login') }}">Login</a>
-                <a href="{{ route('register') }}">Register</a>
-            @endauth
-        </div>
-    @endif
-
     <div class="content">
         <h1 class="title">Socialite Demo</h1>
 
-        <a href="/chatwork/login">ChatWork</a>
-        <a href="/amazon/login">Amazon</a>
-        <a href="/qiita/login">Qiita</a>
-        <a href="/discord/login">Discord</a>
+        <ul class="links">
+            <li><a href="/chatwork/login">ChatWork</a></li>
+            <li><a href="/amazon/login">Amazon</a></li>
+            <li><a href="/qiita/login">Qiita</a></li>
+            <li><a href="/discord/login">Discord</a></li>
+            <li><a href="/wordpress/login">WordPress</a></li>
+        </ul>
 
     </div>
 </div>
