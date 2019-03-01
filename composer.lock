@@ -1138,16 +1138,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.14.1",
+            "version": "2.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e68f869575bd703276be8d4264799cd3cce28107"
+                "reference": "a1f4f9abcde8241ce33bf5090896e9c16d0b4232"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e68f869575bd703276be8d4264799cd3cce28107",
-                "reference": "e68f869575bd703276be8d4264799cd3cce28107",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/a1f4f9abcde8241ce33bf5090896e9c16d0b4232",
+                "reference": "a1f4f9abcde8241ce33bf5090896e9c16d0b4232",
                 "shasum": ""
             },
             "require": {
@@ -1194,7 +1194,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-02-27T13:59:59+00:00"
+            "time": "2019-02-28T09:07:12+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1795,16 +1795,16 @@
         },
         {
             "name": "revolution/socialite-amazon",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/socialite-amazon.git",
-                "reference": "30d319e2fb0504821cb12f142cb7101518f5023b"
+                "reference": "ba3dbefeb5c387ab94b802b7499ed6f72867c922"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/socialite-amazon/zipball/30d319e2fb0504821cb12f142cb7101518f5023b",
-                "reference": "30d319e2fb0504821cb12f142cb7101518f5023b",
+                "url": "https://api.github.com/repos/kawax/socialite-amazon/zipball/ba3dbefeb5c387ab94b802b7499ed6f72867c922",
+                "reference": "ba3dbefeb5c387ab94b802b7499ed6f72867c922",
                 "shasum": ""
             },
             "require": {
@@ -1844,7 +1844,7 @@
                 "laravel",
                 "socialite"
             ],
-            "time": "2018-05-10T03:43:33+00:00"
+            "time": "2019-02-28T09:19:14+00:00"
         },
         {
             "name": "revolution/socialite-chatwork",
@@ -1902,19 +1902,20 @@
         },
         {
             "name": "revolution/socialite-discord",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/socialite-discord.git",
-                "reference": "3f99b0b2a3dcdcfa0df8c430595e2fa352784357"
+                "reference": "6ac331b9c6a3d0176807b7f475277babe90b09e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/socialite-discord/zipball/3f99b0b2a3dcdcfa0df8c430595e2fa352784357",
-                "reference": "3f99b0b2a3dcdcfa0df8c430595e2fa352784357",
+                "url": "https://api.github.com/repos/kawax/socialite-discord/zipball/6ac331b9c6a3d0176807b7f475277babe90b09e0",
+                "reference": "6ac331b9c6a3d0176807b7f475277babe90b09e0",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "laravel/socialite": "*",
                 "php": ">=7.1.3"
             },
@@ -1951,20 +1952,20 @@
                 "laravel",
                 "socialite"
             ],
-            "time": "2019-02-01T02:25:19+00:00"
+            "time": "2019-02-28T09:25:06+00:00"
         },
         {
             "name": "revolution/socialite-qiita",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/socialite-qiita.git",
-                "reference": "cd03c395d7d1cc066e81f84573103f5fcbb89cd5"
+                "reference": "6f92fcf60b09302568c7759efde87332cc04ab6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/socialite-qiita/zipball/cd03c395d7d1cc066e81f84573103f5fcbb89cd5",
-                "reference": "cd03c395d7d1cc066e81f84573103f5fcbb89cd5",
+                "url": "https://api.github.com/repos/kawax/socialite-qiita/zipball/6f92fcf60b09302568c7759efde87332cc04ab6c",
+                "reference": "6f92fcf60b09302568c7759efde87332cc04ab6c",
                 "shasum": ""
             },
             "require": {
@@ -2005,30 +2006,30 @@
                 "qiita",
                 "socialite"
             ],
-            "time": "2019-02-02T02:55:19+00:00"
+            "time": "2019-02-28T09:28:41+00:00"
         },
         {
             "name": "revolution/socialite-wordpress",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/socialite-wordpress.git",
-                "reference": "37036a319b3a98fd0ca169b5f78572080dcc211f"
+                "reference": "59a66e3efbefd10cabb621de91ac0a96a9d2e99e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/socialite-wordpress/zipball/37036a319b3a98fd0ca169b5f78572080dcc211f",
-                "reference": "37036a319b3a98fd0ca169b5f78572080dcc211f",
+                "url": "https://api.github.com/repos/kawax/socialite-wordpress/zipball/59a66e3efbefd10cabb621de91ac0a96a9d2e99e",
+                "reference": "59a66e3efbefd10cabb621de91ac0a96a9d2e99e",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "laravel/socialite": "*",
-                "php": ">=7.0.0"
+                "php": ">=7.1.3"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^6.0"
+                "phpunit/phpunit": "^7.5"
             },
             "type": "library",
             "extra": {
@@ -2059,7 +2060,7 @@
                 "socialite",
                 "wordpress"
             ],
-            "time": "2019-02-01T02:33:54+00:00"
+            "time": "2019-03-01T06:05:56+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
