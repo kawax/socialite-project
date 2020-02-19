@@ -80,6 +80,7 @@
             <li><a href="/discord/login">Discord</a></li>
             <li><a href="/wordpress/login">WordPress</a></li>
             <li><a href="/mastodon/login">Mastodon</a></li>
+            <li><a href="/freee-accounting/login">Freee</a></li>
         </ul>
 
     </div>

@@ -81,4 +81,10 @@ return [
         //'read', 'write', 'follow'
         'scope'         => ['read'],
     ],
+
+    'freee-accounting' => [
+        'client_id' => env('FREEE_ACCOUNTING_CLIENT_ID'),
+        'client_secret' => env('FREEE_ACCOUNTING_CLIENT_SECRET'),
+        'redirect' => env('FREEE_ACCOUNTING_REDIRECT', '/auth-callback'),
+    ],
 ];

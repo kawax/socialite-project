@@ -16,6 +16,7 @@
     "revolution/socialite-amazon": "^1.0",
     "revolution/socialite-chatwork": "^1.0",
     "revolution/socialite-discord": "^1.0",
+    "revolution/socialite-freee": "^1.0",
     "revolution/socialite-mastodon": "^1.3",
     "revolution/socialite-qiita": "^1.0",
     "revolution/socialite-wordpress": "^1.0"

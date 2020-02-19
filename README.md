@@ -6,7 +6,7 @@
 - https://github.com/kawax/socialite-wordpress
 - https://github.com/kawax/socialite-mastodon
 - https://github.com/kawax/socialite-chatwork
-
+- https://github.com/kawax/socialite-freee
 
 
 ```
