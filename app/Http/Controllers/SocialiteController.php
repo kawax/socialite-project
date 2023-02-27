@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 
 use Laravel\Socialite\Facades\Socialite;
 
 class SocialiteController extends Controller
 {
-    public function login(string $provider)
+    public function login(string $provider): RedirectResponse
     {
         return Socialite::driver($provider)->redirect();
     }

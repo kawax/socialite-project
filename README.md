@@ -7,8 +7,6 @@
 - https://github.com/kawax/socialite-mastodon
 - https://github.com/kawax/socialite-chatwork
 - https://github.com/kawax/socialite-freee
+- https://github.com/kawax/laravel-line-sdk
 
-
-```
-php artisan serve 
-```
+メンテナンスの頻度は低いので最新バージョンのLaravelやPHPで動く保証はない。
