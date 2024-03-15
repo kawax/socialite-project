@@ -12,7 +12,6 @@
         "laravel/socialite": "^5.6",
         "laravel/tinker": "^2.8",
         "revolution/socialite-amazon": "^1.1",
-        "revolution/socialite-chatwork": "^1.2",
         "revolution/socialite-discord": "^1.4",
         "revolution/socialite-mastodon": "^1.4",
         "revolution/socialite-qiita": "^1.3",
