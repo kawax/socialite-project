@@ -25,7 +25,6 @@
                         <h1 class="text-xl">Socialite Demo</h1>
 
                         <ul class="">
-                            <li><a href="/chatwork/login">ChatWork</a></li>
                             <li><a href="/amazon/login">Amazon</a></li>
                             <li><a href="/qiita/login">Qiita</a></li>
                             <li><a href="/discord/login">Discord</a></li>
