@@ -45,12 +45,6 @@ return [
         'redirect'      => env('AMAZON_LOGIN_REDIRECT'),
     ],
 
-    'qiita' => [
-        'client_id'     => env('QIITA_CLIENT_ID'),
-        'client_secret' => env('QIITA_CLIENT_SECRET'),
-        'redirect'      => env('QIITA_REDIRECT'),
-    ],
-
     'discord' => [
         'client_id'     => env('DISCORD_CLIENT_ID'),
         'client_secret' => env('DISCORD_CLIENT_SECRET'),

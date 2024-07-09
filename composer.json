@@ -14,7 +14,6 @@
         "revolution/socialite-amazon": "^1.1",
         "revolution/socialite-discord": "^1.4",
         "revolution/socialite-mastodon": "^1.4",
-        "revolution/socialite-qiita": "^1.3",
         "revolution/socialite-wordpress": "^1.2"
     },
     "require-dev": {
