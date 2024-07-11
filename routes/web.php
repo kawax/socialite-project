@@ -13,7 +13,7 @@ Route::get('{provider}/login', function (string $provider) {
 });
 
 Route::get('{provider}/callback', function (Request $request, string $provider) {
-    if ($request->filled('error')) {
+    if ($request->missing('code') || $request->filled('error')) {
         dd($request);
     }
 
