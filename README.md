@@ -7,5 +7,6 @@
 
 - https://github.com/kawax/laravel-line-sdk
 - https://github.com/kawax/laravel-threads
+- https://github.com/kawax/laravel-bluesky
 
-メンテナンスの頻度は低いので最新バージョンのLaravelやPHPで動く保証はない。
+Since maintenance is infrequent, there is no guarantee that it will work with the latest versions of Laravel or PHP.
