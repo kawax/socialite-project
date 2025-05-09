@@ -32,38 +32,38 @@ return [
     ],
 
     'amazon' => [
-        'client_id'     => env('AMAZON_LOGIN_ID'),
+        'client_id' => env('AMAZON_LOGIN_ID'),
         'client_secret' => env('AMAZON_LOGIN_SECRET'),
-        'redirect'      => env('AMAZON_LOGIN_REDIRECT'),
+        'redirect' => env('AMAZON_LOGIN_REDIRECT'),
     ],
 
     'discord' => [
-        'client_id'     => env('DISCORD_CLIENT_ID'),
+        'client_id' => env('DISCORD_CLIENT_ID'),
         'client_secret' => env('DISCORD_CLIENT_SECRET'),
-        'redirect'      => env('DISCORD_REDIRECT'),
+        'redirect' => env('DISCORD_REDIRECT'),
     ],
 
     'wordpress' => [
         // Endpoint for WordPress.com
-        'host'   => env('WORDPRESS_HOST', 'https://public-api.wordpress.com/oauth2'),
+        'host' => env('WORDPRESS_HOST', 'https://public-api.wordpress.com/oauth2'),
         'api_me' => env('WORDPRESS_API_ME', 'https://public-api.wordpress.com/rest/v1.1/me'),
 
         // Endpoint for Self-hosted WordPress
         //        'host'   => env('WORDPRESS_HOST'),
         //        'api_me' => env('WORDPRESS_API_ME', env('WORDPRESS_HOST') . '/me/'),
 
-        'client_id'     => env('WORDPRESS_CLIENT_ID'),
+        'client_id' => env('WORDPRESS_CLIENT_ID'),
         'client_secret' => env('WORDPRESS_CLIENT_SECRET'),
-        'redirect'      => env('WORDPRESS_REDIRECT'),
+        'redirect' => env('WORDPRESS_REDIRECT'),
     ],
 
     'mastodon' => [
-        'domain'        => env('MASTODON_DOMAIN'),
-        'client_id'     => env('MASTODON_ID'),
+        'domain' => env('MASTODON_DOMAIN'),
+        'client_id' => env('MASTODON_ID'),
         'client_secret' => env('MASTODON_SECRET'),
-        'redirect'      => env('MASTODON_REDIRECT'),
-        //'read', 'write', 'follow'
-        'scope'         => ['read'],
+        'redirect' => env('MASTODON_REDIRECT'),
+        // 'read', 'write', 'follow'
+        'scope' => ['read'],
     ],
 
 ];
