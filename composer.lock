@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4e3f126f86ce413ca4ae4bc1e24c6c1",
+    "content-hash": "f821d672fbd99c19ba10f1343aacdcb9",
     "packages": [
         {
             "name": "brick/math",
@@ -4051,6 +4051,63 @@
                 "source": "https://github.com/kawax/laravel-line-sdk/tree/4.0.1"
             },
             "time": "2025-03-27T08:11:42+00:00"
+        },
+        {
+            "name": "revolution/laravel-threads",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kawax/laravel-threads.git",
+                "reference": "2be162e30f282ea2377e1526625c584c060b8901"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kawax/laravel-threads/zipball/2be162e30f282ea2377e1526625c584c060b8901",
+                "reference": "2be162e30f282ea2377e1526625c584c060b8901",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.8",
+                "illuminate/support": "^11.0||^12.0",
+                "laravel/socialite": "^5.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Revolution\\Threads\\ThreadsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Revolution\\Threads\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kawax",
+                    "email": "kawaxbiz@gmail.com"
+                }
+            ],
+            "description": "Laravel Threads API",
+            "keywords": [
+                "laravel",
+                "socialite",
+                "threads"
+            ],
+            "support": {
+                "source": "https://github.com/kawax/laravel-threads/tree/0.3.2"
+            },
+            "time": "2025-02-23T03:41:10+00:00"
         },
         {
             "name": "revolution/socialite-amazon",

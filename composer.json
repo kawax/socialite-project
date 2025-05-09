@@ -12,6 +12,7 @@
         "laravel/tinker": "^2.8",
         "revolution/laravel-bluesky": "^1.0",
         "revolution/laravel-line-sdk": "^4.0",
+        "revolution/laravel-threads": "^0.3",
         "revolution/socialite-amazon": "^1.2",
         "revolution/socialite-discord": "^1.4",
         "revolution/socialite-mastodon": "^1.4",
